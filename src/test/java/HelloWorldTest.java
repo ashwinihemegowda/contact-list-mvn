@@ -1,2 +1,7 @@
-package PACKAGE_NAME;public class HelloWorldTest {
+public class HelloWorldTest {
+    public static void main(String[] args) {
+        HelloWorld helloWorld = new HelloWorld();
+        System.out.println(helloWorld.say("Hi"));
+    }
+
 }
