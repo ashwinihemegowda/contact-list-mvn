@@ -5,6 +5,6 @@ public class HelloWorld {
     }
 
     public String say(String message) {
-       return  "Hello World from Jenkins more update dsd";
+       return  "Hello now update World from Jenkins more update dsd";
     }
 }
