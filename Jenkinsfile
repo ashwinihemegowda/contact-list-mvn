@@ -5,14 +5,14 @@ pipeline {
         stage('Initialize') {
              steps {
                 echo "Hello World"
-                echo ${BUILD_NUMBER}
+                echo "${BUILD_NUMBER}"
              }
         }
 
         stage('Run Test ') {
               steps {
                 echo "Hello World"
-                echo ${BUILD_NUMBER}
+                echo "${JOB_NAME}"
               }
         }
      }
