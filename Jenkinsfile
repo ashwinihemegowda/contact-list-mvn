@@ -5,7 +5,7 @@ pipeline {
         stage('Initialize') {
              steps {
                 echo "Hello World"
-                echo "${BUILD_NUMBER}"
+                echo " we are in build no -  ${BUILD_NUMBER}"
              }
         }
 
