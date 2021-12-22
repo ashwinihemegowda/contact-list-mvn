@@ -1,5 +1,5 @@
 pipeline {
-    
+
     agent any
     
 
@@ -20,7 +20,7 @@ pipeline {
         stage("Clone code from VCS") {
             steps {
                 script {
-                    git 'https://github.com/javaee/cargotracker.git';
+                   git branch: 'nexus-poc', url: 'https://github.com/sshelake25/contact-list-mvn.git'
                 }
             }
         }
